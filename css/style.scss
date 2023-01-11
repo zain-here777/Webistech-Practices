@@ -1,0 +1,22 @@
+@import 'colors';
+@import 'variables';
+
+@mixin paragraph{
+    background-color: red;
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    line-height: 2;
+}
+
+.para1{
+   @include paragraph;
+}
+.para2{
+    @include paragraph;
+}
+.para3{
+    @include paragraph;
+}
